@@ -1,14 +1,15 @@
 export class routingService {
-    constructor() {
-        this.appName = "Imagify";
-    }
-    async navigateToLocation(locationArray) {
-        if (locationArray[0] !== "image-brainstorming-page") {
-            console.error("Invalid URL structure.");
+    constructor() {}
+    async navigateToLocation(locationArray = [], appName) {
+        const IMAGE_BRAINSTORMING_PAGE = "image-brainstorming-page";
+
+        if (locationArray.length === 0 || locationArray[0] !== IMAGE_BRAINSTORMING_PAGE) {
+            console.error("Invalid URL structure: URL must start with 'image-brainstorming-page'");
             return;
         }
+
         const webComponentName = locationArray[locationArray.length - 1];
-        const pageUrl = `${webSkel.currentUser.space.id}/${this.appName}/${locationArray.join("/")}`;
+        const pageUrl = `${webSkel.currentUser.space.id}/${appName}/${locationArray.join("/")}`;
         await webSkel.changeToDynamicPage(webComponentName, pageUrl);
     }
 }
