@@ -4,8 +4,8 @@ export class routingService {
         const IMAGE_BRAINSTORMING_PAGE = "image-brainstorming-page";
 
         if (locationArray.length === 0 || locationArray[0] === IMAGE_BRAINSTORMING_PAGE) {
-            const pageUrl = `${webSkel.currentUser.space.id}/${appName}/${CHATBOTS_PAGE}`;
-            await webSkel.changeToDynamicPage(CHATBOTS_PAGE, pageUrl);
+            const pageUrl = `${webSkel.currentUser.space.id}/${appName}/${IMAGE_BRAINSTORMING_PAGE}`;
+            await webSkel.changeToDynamicPage(IMAGE_BRAINSTORMING_PAGE, pageUrl);
             return;
         }
  if(locationArray[locationArray.length-1]!== IMAGE_BRAINSTORMING_PAGE){
