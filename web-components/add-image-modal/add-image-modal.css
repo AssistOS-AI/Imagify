@@ -38,6 +38,9 @@
     font-size: 14px;
     color:  var(--form-input-error);
 }
+.modal-title{
+    color: var(--white-text);
+}
 .image-upload-form-header {
     width: 100%;
     display: flex;
