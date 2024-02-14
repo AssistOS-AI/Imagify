@@ -23,6 +23,7 @@
     background: var(--medium-blue);
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 .icon-container {
     text-align: center;
