@@ -20,7 +20,7 @@
 .modal-header{
     padding: 5px 20px 5px 20px;
     margin-bottom: 5px;
-    background: var(--button-purple);
+    background: var(--medium-blue);
     display: flex;
     justify-content: space-between;
 }

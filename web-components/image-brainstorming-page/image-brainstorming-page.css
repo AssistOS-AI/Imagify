@@ -32,7 +32,7 @@
 }
 
 .square-container {
-    border: 6px solid var(--button-purple);
+    border: 6px solid var(--medium-blue);
     border-radius: 9px;
     width: 150px;
     height: 150px;
@@ -47,7 +47,7 @@
 
 .horizontal-line {
     margin: 35px;
-    background-color: var(--button-purple);
+    background-color: var(--medium-blue);
     width: 68px;
     height: 9px;
     grid-area: inner-div;
@@ -55,7 +55,7 @@
 
 .vertical-line {
     margin: 35px;
-    background-color: var(--button-purple);
+    background-color: var(--medium-blue);
     width: 9px;
     height: 68px;
     grid-area: inner-div;
@@ -67,5 +67,5 @@
 }
 
 .button-text {
-    color: var(--button-purple);
+    color: var(--medium-blue);
 }

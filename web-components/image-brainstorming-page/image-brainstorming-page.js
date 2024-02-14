@@ -8,7 +8,7 @@ export class imageBrainstormingPage {
     beforeRender() {}
 
     async showAddImageModal() {
-        await webSkel.UtilsService.showModal(document.querySelector("body"), "add-image-modal", { presenter: "add-personality-modal"});
+        await webSkel.showModal("add-image-modal", { presenter: "add-personality-modal"});
     }
 
 }
