@@ -23,19 +23,13 @@
   "presenters": [
     {
       "presenterPath": "web-components/image-brainstorming-page/image-brainstorming-page.js",
-      "presenterName": "imageBrainstormingPage",
+      "presenterName": "ImageBrainstormingPage",
       "forComponent": "image-brainstorming-page"
     },
     {
       "presenterPath": "web-components/add-image-modal/add-image-modal.js",
-      "presenterName": "addImageModal",
+      "presenterName": "AddImageModal",
       "forComponent": "add-image-modal"
-    }
-  ],
-  "services": [
-    {
-      "serviceName": "routingService",
-      "servicePath": "services/routingService.js"
     }
   ],
   "manager": {

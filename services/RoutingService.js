@@ -1,4 +1,4 @@
-export class routingService {
+export class RoutingService {
     constructor() {}
     async navigateToLocation(locationArray = [], appName) {
         const IMAGE_BRAINSTORMING_PAGE = "image-brainstorming-page";
