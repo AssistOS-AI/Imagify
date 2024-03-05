@@ -5,31 +5,14 @@
   "entryPointComponent": "image-brainstorming-page",
   "components": [
     {
-      "componentName": "image-brainstorming-page",
-      "componentPath": "web-components/image-brainstorming-page/image-brainstorming-page.html",
-      "cssPaths": [
-        "web-components/image-brainstorming-page/image-brainstorming-page.css",
-        "web-components/add-image-modal/add-image-modal.css"
-      ]
+      "name": "image-brainstorming-page",
+      "presenterClassName": "imageBrainstormingPage",
+      "type": "pages"
     },
     {
-      "componentName": "add-image-modal",
-      "componentPath": "web-components/add-image-modal/add-image-modal.html",
-      "cssPaths": [
-        "web-components/add-image-modal/add-image-modal.css"
-      ]
-    }
-  ],
-  "presenters": [
-    {
-      "presenterPath": "web-components/image-brainstorming-page/image-brainstorming-page.js",
-      "presenterName": "imageBrainstormingPage",
-      "forComponent": "image-brainstorming-page"
-    },
-    {
-      "presenterPath": "web-components/add-image-modal/add-image-modal.js",
-      "presenterName": "addImageModal",
-      "forComponent": "add-image-modal"
+      "name": "add-image-modal",
+      "presenterClassName": "addImageModal",
+      "type": "modals"
     }
   ],
   "services": [
